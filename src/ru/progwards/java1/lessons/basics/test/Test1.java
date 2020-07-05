@@ -1,4 +1,4 @@
-package ru.progwards.java1.lessons.test;
+package ru.progwards.java1.lessons.basics.test;
 
 public class Test1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ru.progwards.java1.lessons;
+package ru.progwards.java1.lessons.basics;
 
 import org.w3c.dom.ls.LSOutput;
 

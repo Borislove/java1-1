@@ -1,4 +1,4 @@
-package ru.progwards.java1.lessons;
+package ru.progwards.java1.lessons.basics;
 
 import javax.sound.midi.Soundbank;
 import javax.swing.plaf.synth.SynthRootPaneUI;
