@@ -24,8 +24,8 @@ public class Astronomy {
     public static Double earthVsMercury(){
         return (earthSquare()/mercurySquare())*100;
     }
-    public static Double earthVsJupiter(){
-        return  (earthSquare()/jupiterSquare())*100;
+    public static Double earthVsJupiter() {
+        return (earthSquare() / jupiterSquare()) * 100;
     }
 
     public static void main(String[] args) {
