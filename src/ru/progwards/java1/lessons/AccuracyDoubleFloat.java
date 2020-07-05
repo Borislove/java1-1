@@ -22,6 +22,6 @@ public class AccuracyDoubleFloat {
     public static void main(String[] args) {
         System.out.println(volumeBallDouble(6371.2));
         System.out.println(volumeBallFloat(6371.2f));
-        System.out.println(calculateAccuracy(radius);
+        System.out.println(calculateAccuracy(6371.2));
     }
 }
