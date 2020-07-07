@@ -8,12 +8,15 @@ public class AccuracyDoubleFloat {
     public static double volumeBallDouble(double radius) {
         Double R = (radius*radius*radius);
         Double pi = 3.14;
-        return 4/3*(pi*R);
+        Double a=(double)4/ (double)3;
+        return a*(pi*R);
+        //нужно правильно прописать 4/3 (должно быть double)
     }
     public static float volumeBallFloat(float radius){
         Float R = (radius*radius*radius);
         Float pi = 3.14f;
-        return 4/3*(pi*R);
+        Float b=(float)4/(float)3;
+        return b*(pi*R);
 
     }
     public static double calculateAccuracy(double radius){

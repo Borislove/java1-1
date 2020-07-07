@@ -22,10 +22,10 @@ public class Astronomy {
         return (sphereSquare(71492.0));
     }
     public static Double earthVsMercury(){
-        return (earthSquare()/mercurySquare())*100;
+        return (earthSquare()/mercurySquare());
     }
     public static Double earthVsJupiter() {
-        return (earthSquare() / jupiterSquare()) * 100;
+        return (earthSquare() / jupiterSquare());
     }
 
     public static void main(String[] args) {
