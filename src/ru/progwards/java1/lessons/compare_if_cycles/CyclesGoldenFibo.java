@@ -42,5 +42,16 @@ public class CyclesGoldenFibo {
         System.out.println(containsDigit(234,3));
         System.out.println(fiboNumber(10));
         System.out.println(isGoldenTriangle(89,89,55));
+        int a =1;
+        int b=1;
+        int c;
+        System.out.println(a+" "+b+" ");
+        for (int i=3; i<=15; i++) {
+            c=a+b;
+            System.out.println(c+" ");
+            a=b;
+            b=c;
+        }
+        System.out.println();
     }
 }
