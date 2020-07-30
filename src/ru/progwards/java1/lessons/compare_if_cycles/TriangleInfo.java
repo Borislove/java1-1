@@ -6,7 +6,7 @@ public class TriangleInfo {
     }
 
     public static boolean isRightTriangle(int a, int b, int c) {
-        if (a * a == (b * b + c * c) && b * b == (c * c + a * a) && c * c == (a * a + b * b)) {
+        if (a * a == (b * b + c * c) || b * b == (c * c + a * a) || c * c == (a * a + b * b)) {
             return true;
         } else
             return false;
