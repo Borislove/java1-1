@@ -5,6 +5,15 @@ public class TriangleInfo {
         return a<(b+c)&&b<(a+c)&&c<(a+b);
     }
 
+    public static boolean Triangle(int a, int b, int c) {
+        if ((a + b) > c && (a + c) > b && (c + b) > a) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
     public static boolean isRightTriangle(int a, int b, int c) {
         if (a * a == (b * b + c * c) || b * b == (c * c + a * a) || c * c == (a * a + b * b)) {
             return true;
@@ -23,5 +32,6 @@ public class TriangleInfo {
         System.out.println(isTriangle(5, 5, 5));
         System.out.println(isRightTriangle(12, 34, 56));
         System.out.println(isIsoscelesTriangle(12, 34, 34));
+        System.out.println(Triangle(4,1,5));
     }
 }
