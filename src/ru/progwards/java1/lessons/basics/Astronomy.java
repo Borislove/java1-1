@@ -6,10 +6,11 @@ import java.util.SortedMap;
 
 public class Astronomy {
     public static Double sphereSquare(Double r){
-        Double R;
-        R=r*r;
-        Double pi = 3.14;
-        return 4*pi*R;
+        //Double R;
+        //R=r*r;
+        //Double pi = 3.14;
+        //формула S = 4πR2.
+        return 4*3.14*r*r;
     }
     public static Double earthSquare(){
         return (sphereSquare(6371.2));
