@@ -51,70 +51,11 @@ public class Animal {
         return "I am" + getKind() + ", eat" + getFoodKind() + calculateFoodWeight();
     }
 
-    public class Cow extends Animal {
 
-        public Cow(double weight) {
-            super(weight);
-        }
 
-        @Override
-        public AnimalKind getKind() {
-            return AnimalKind.COW;
-        }
 
-        @Override
-        public FoodKind getFoodKind() {
-            return FoodKind.HAY;
-        }
 
-        @Override
-        public double getFoodCoeff() {
-            return 0.05;
-        }
 
-    }
-
-    public class Hamster extends Animal {
-        public Hamster(double weight) {
-            super(weight);
-        }
-
-        @Override
-        public AnimalKind getKind() {
-            return AnimalKind.HAMSTER;
-        }
-
-        @Override
-        public FoodKind getFoodKind() {
-            return FoodKind.CORN;
-        }
-
-        @Override
-        public double getFoodCoeff() {
-            return 0.03;
-        }
-    }
-
-    public class Duck extends Animal {
-        public Duck(double weight) {
-            super(weight);
-        }
-
-        @Override
-        public AnimalKind getKind() {
-            return AnimalKind.DUCK;
-        }
-
-        @Override
-        public FoodKind getFoodKind() {
-            return FoodKind.CORN;
-        }
-
-        @Override
-        public double getFoodCoeff() {
-            return 0.04;
-        }
-    }
 
 
 }
