@@ -50,12 +50,4 @@ public class Animal {
     public String toStringFull() {
         return "I am" + getKind() + ", eat" + getFoodKind() + calculateFoodWeight();
     }
-
-
-
-
-
-
-
-
 }
